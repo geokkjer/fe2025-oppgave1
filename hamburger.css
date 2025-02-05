@@ -83,7 +83,7 @@
 }
 /* Hamburger Closed */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #side {
     display: none;
   }
@@ -93,5 +93,15 @@
   }
   .item {
     text-align: left;
+  }
+  #container .main{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "first first first"
+    "second second second"
+    "third third third"
+    "fourth fourth fourth"
+    ;
   }
 }
