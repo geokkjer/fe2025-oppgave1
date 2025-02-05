@@ -8,8 +8,8 @@
   visibility: hidden;
   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   overflow: hidden;
-  background: black;
-  z-index: -1;
+  
+  z-index: -999;
 }
 #hamburger-input {
   display: none;
