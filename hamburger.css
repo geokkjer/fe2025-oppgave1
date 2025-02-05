@@ -65,6 +65,22 @@
   visibility: visible;
   opacity: 0.4;
 }
+
+#sidebar-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#sidebar-menu h3{
+  color: orange;
+  
+}
+
+#sidebar-menu ul{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
 /* Hamburger Closed */
 
 @media (max-width: 768px) {
