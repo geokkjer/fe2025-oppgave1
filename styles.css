@@ -101,6 +101,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.st1 .status, .st1 .consump, .st1 .total, .st1 .real{
+  margin: 5px 12px 0 0;
+}
 
 .main .st1 .street{
   max-height: 550px;

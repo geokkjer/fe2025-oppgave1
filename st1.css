@@ -27,13 +27,23 @@
 }
 .st1 .street .text {
   grid-area: streettext;
-  font-size: large;
+  font-size: 0.95rem;
   font-weight: bold;
+  margin-bottom: 10px;
+ 
 }
 .st1 .street .text2 {
   grid-area: streettext2;
-  font-size: large;
+  font-size: 0.9rem;
   font-weight: bold;
+  /* align-items: center; */
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.text2 i{
+  font-size: 0.7rem;
+  opacity: 0.5;
 }
 
 .st1 .street .solarimg {
@@ -56,6 +66,10 @@
   background-color: #e0e0e0;
   border-radius: 5px;
   margin: 40px 0;
+  font-size: 0.75rem;
+}
+.progress-container span{
+  font-size: 0.75rem;
 }
 
 .st1 .street .progress-bar {
@@ -112,7 +126,7 @@
 .st1 .status {
   grid-area: status;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 9px;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -136,7 +150,7 @@
 .st1 .real {
   padding: 10px;
   grid-area: real;
-  margin: 10px;
+  margin: 5px;
   border-radius: 9px;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -148,10 +162,10 @@
 }
 
 .st1 .street .arrow {
-  font-size: 25px;
+  font-size: 22px;
   border-radius: 25%;
   background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0.2, 0.2, 0.4) 2px 2px, rgba(0, 0.2, 0.2, 0.1) 4px 4px;
+  box-shadow: rgba(51, 51, 51, 0.4) 2px 2px, rgba(78, 78, 78, 0.1) 4px 4px;
 }
 
 
@@ -165,16 +179,19 @@
 }
 
 .smallgrey {
-  opacity: 70%;
-  font-size: 15px;
+  opacity: 60%;
+  font-size: 12px;
+  font-style: normal;
 }
+
 
 .Bigletter {
   padding-top: 8px;
-  font-size: larger;
+  font-size: 1rem;
   font-weight: bold;
 }
 .kwh {
-  opacity: 60%;
+  opacity: 55%;
   font-size: 12px;
+  font-style: normal;
 }
