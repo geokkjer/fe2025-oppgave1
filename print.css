@@ -1,7 +1,11 @@
 @media print {
-  
+  html {
+    margin: 0;
+    padding: 0;
+  }
   .left,
   .header {
+    visibility: hidden;
     display: none;
   }
   #container {
