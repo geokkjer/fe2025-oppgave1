@@ -28,30 +28,32 @@
    
   } */
   .main .st1 .street {
-    height: 90%;
+    margin: 2px;
+    height: 100%;
   }
   .main .st1 .status {
     height: 80%;
   }
   .main .st1 .consump {
+    margin: 2px;
     height: 80%;
   }
   .main .st1 .total {
+    margin: 2px;
     height: 80%;
   }
   .main .st1 .real {
-    margin: 2px;
-    height: 60%;
+    height: 90%;
   }
   .main .st2 {
-    width: 90%;
+    width: 100%;
   }
   .main .st3 {
-    height: 90%;
+    height: 100%;
   }
   .main .st4 {
     width: 90%;
-    height: 90%;
+    height: 100%;
   }
 }
 
